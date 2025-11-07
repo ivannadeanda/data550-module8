@@ -56,6 +56,7 @@ hist(random_numbers2)
 #| fig.cap = "Third set of random numbers"
 hist(random_numbers3)
 ```
+<<<<<<< HEAD
 
 # Random numbers 4 
 ```{r, random-numbers4-histogram}
@@ -69,3 +70,11 @@ hist(random_numbers4)
 #| fig.cap = "Fifth set of random numbers"
 hist(random_numbers5)
 ```
+=======
+# Random numbers 4
+
+```{r}
+random_numbers4 <- readRDS(
+  here::here("output/random_numbers4.rds"))
+```
+>>>>>>> binomial2
